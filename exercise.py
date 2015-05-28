@@ -10,4 +10,13 @@ class DigitPowers():
         digits = [int(d) for d in str(number)]
         return sum(d**power for d in digits)
 
+    def calc_max_value(self, power):
+
+        start = 9
+        while self.sum_of_powers(start, power) > start:
+            start = start * 10 + 9
+        return self.sum_of_powers(start, power)
+
+
+
 
