@@ -1,5 +1,6 @@
 __author__ = 'Gabi'
 
+
 import unittest
 
 from exercise import DigitPowers
