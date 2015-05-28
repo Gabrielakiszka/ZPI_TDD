@@ -2,4 +2,5 @@ __author__ = 'Gabi'
 
 
 class DigitPowers():
-    pass
+    def __init__(self):
+        self.sum_numbers = 0
