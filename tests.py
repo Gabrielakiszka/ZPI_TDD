@@ -18,5 +18,9 @@ class TestDigitPowers(unittest.TestCase):
         dp_result = DigitPowers()
         assert dp_result.sum_of_powers(1634, 4) == 1634, "dfp_result is not correct"
 
+    def test_calc_max_value(self):
+        dp_result = DigitPowers()
+        assert dp_result.calc_max_value(2) == 243, "dfp_result is not correct"
+
 if __name__ == "__main__":
     unittest.main()
