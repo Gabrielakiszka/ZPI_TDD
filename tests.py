@@ -14,5 +14,9 @@ class TestDigitPowers(unittest.TestCase):
         dp_result = DigitPowers()
         assert dp_result.sum_numbers is not None, "dfp_result sum_numbers is None"
 
+    def test_digit_powers_sum_of_powers(self):
+        dp_result = DigitPowers()
+        assert dp_result.sum_of_powers(1634, 4) == 1634, "dfp_result is not correct"
+
 if __name__ == "__main__":
     unittest.main()
