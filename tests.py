@@ -23,5 +23,9 @@ class TestDigitPowers(unittest.TestCase):
         dp_result = DigitPowers()
         assert dp_result.calc_max_value(2) == 243, "dfp_result is not correct"
 
+    def test_solution(self):
+        dp_result = DigitPowers()
+        assert dp_result.solution(4) == 19316, "dfp_result is not correct"
+
 if __name__ == "__main__":
     unittest.main()
